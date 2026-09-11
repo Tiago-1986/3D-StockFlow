@@ -1,3 +1,6 @@
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
 const sampleData = {
     nome_armazem: 'Armazém ZUPLOG — Demo',
     dimensoes: { corredores: 5, posicoes_por_corredor: 20, niveis: 4 },
@@ -12,16 +15,12 @@ const random = () => {
     return (seed - 1) / 2147483646;
 };
 
-// Geração de dados falsos de estoque
 for (let x = 0; x < 5; x++) {
     for (let y = 0; y < 20; y++) {
         for (let z = 0; z < 4; z++) {
             const ocupado = random() < .70;
             sampleData.posicoes.push({
-                x,
-                y,
-                z,
-                ocupado,
+                x, y, z, ocupado,
                 produto: ocupado ? products[Math.floor(random() * products.length)] : null,
                 quantidade: ocupado ? Math.floor(50 + random() * 450) : 0,
                 data_entrada: ocupado ? '2026-08-' + String(Math.floor(1 + random() * 30)).padStart(2, '0') : null,
@@ -48,7 +47,8 @@ scene.fog = new THREE.Fog(0x07111f, 50, 120);
 const camera = new THREE.PerspectiveCamera(48, 1, .1, 500);
 camera.position.set(30, 36, 36);
 
-const controls = new THREE.OrbitControls(camera, canvas);
+// MUDANÇA: Construção moderna do OrbitControls
+const controls = new OrbitControls(camera, canvas);
 controls.target.set(0, 7, 0);
 controls.enableDamping = true;
 controls.dampingFactor = .08;
@@ -72,11 +72,7 @@ const labelCanvas = document.createElement('canvas');
 
 function material(color, opacity = 1) {
     return new THREE.MeshStandardMaterial({
-        color,
-        transparent: opacity < 1,
-        opacity,
-        roughness: .55,
-        metalness: .12
+        color, transparent: opacity < 1, opacity, roughness: .55, metalness: .12
     });
 }
 
@@ -134,9 +130,7 @@ function renderWarehouse() {
         group.add(box);
         
         const edges = new THREE.LineSegments(edgeGeom, new THREE.LineBasicMaterial({
-            color: p.ocupado ? 0xe9f7ff : 0x718092,
-            transparent: true,
-            opacity: .65
+            color: p.ocupado ? 0xe9f7ff : 0x718092, transparent: true, opacity: .65
         }));
         group.add(edges);
 
@@ -244,7 +238,8 @@ function loadData(newData) {
 
 async function tryLoadJSON() {
     try {
-        const r = await fetch('estoque_3D.json');
+        // MUDANÇA: Puxando o nome exato do arquivo que você criou
+        const r = await fetch('./estoque_3D.json');
         if (r.ok) loadData(await r.json());
         else loadData(sampleData);
     } catch (e) {
