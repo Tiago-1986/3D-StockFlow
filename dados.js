@@ -1,4 +1,4 @@
-{
+const dadosReais = {
   "nome_armazem": "Armazem ZUPLOG - Demo",
   "dimensoes": {
     "corredores": 5,

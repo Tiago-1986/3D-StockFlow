@@ -1,36 +1,4 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-
-const sampleData = {
-    nome_armazem: 'Armazém ZUPLOG — Demo',
-    dimensoes: { corredores: 5, posicoes_por_corredor: 20, niveis: 4 },
-    posicoes: []
-};
-
-const products = ['PROD-A', 'PROD-B', 'PROD-C', 'PROD-D', 'PROD-E'];
-let seed = 24681357;
-
-const random = () => {
-    seed = (seed * 16807) % 2147483647;
-    return (seed - 1) / 2147483646;
-};
-
-for (let x = 0; x < 5; x++) {
-    for (let y = 0; y < 20; y++) {
-        for (let z = 0; z < 4; z++) {
-            const ocupado = random() < .70;
-            sampleData.posicoes.push({
-                x, y, z, ocupado,
-                produto: ocupado ? products[Math.floor(random() * products.length)] : null,
-                quantidade: ocupado ? Math.floor(50 + random() * 450) : 0,
-                data_entrada: ocupado ? '2026-08-' + String(Math.floor(1 + random() * 30)).padStart(2, '0') : null,
-                giro: ocupado ? ['A', 'B', 'C'][Math.floor(random() * 3)] : null
-            });
-        }
-    }
-}
-
-let data = sampleData;
+let data = null;
 let showLabels = false;
 let meshes = [];
 
@@ -47,8 +15,7 @@ scene.fog = new THREE.Fog(0x07111f, 50, 120);
 const camera = new THREE.PerspectiveCamera(48, 1, .1, 500);
 camera.position.set(30, 36, 36);
 
-// MUDANÇA: Construção moderna do OrbitControls
-const controls = new OrbitControls(camera, canvas);
+const controls = new THREE.OrbitControls(camera, canvas);
 controls.target.set(0, 7, 0);
 controls.enableDamping = true;
 controls.dampingFactor = .08;
@@ -65,7 +32,6 @@ const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
 
 const colors = { A: 0x28c98b, B: 0x3aa6ff, C: 0xa777ff, free: 0x506171 };
-
 const rackGeom = new THREE.BoxGeometry(1.8, 2.4, 1.35);
 const edgeGeom = new THREE.EdgesGeometry(rackGeom);
 const labelCanvas = document.createElement('canvas');
@@ -161,7 +127,7 @@ function updateMetrics() {
     const max = Math.max(...byAisle);
     const idx = byAisle.indexOf(max) + 1;
 
-    document.getElementById('insights').innerHTML = `Corredor <strong>R${String(idx).padStart(2, '0')}</strong> tem a maior ocupação: <strong>${(max * 100).toFixed(1)}%</strong>.<br>Use a visão por giro para reposicionar SKUs A próximos à expedição e liberar áreas de baixo giro.`;
+    document.getElementById('insights').innerHTML = `Corredor <strong>R${String(idx).padStart(2, '0')}</strong> tem a maior ocupação: <strong>${(max * 100).toFixed(1)}%</strong>.<br>Use a visão por giro para reposicionar SKUs A próximos à expedição.`;
 }
 
 function resetView() {
@@ -211,7 +177,6 @@ canvas.addEventListener('click', e => {
 }));
 
 document.getElementById('reset').onclick = resetView;
-
 document.getElementById('toggleLabels').onclick = () => {
     showLabels = !showLabels;
     meshes.forEach(g => g.userData.label.visible = showLabels);
@@ -236,18 +201,8 @@ function loadData(newData) {
     resetView();
 }
 
-async function tryLoadJSON() {
-    try {
-        // MUDANÇA: Puxando o nome exato do arquivo que você criou
-        const r = await fetch('./estoque_3D.json');
-        if (r.ok) loadData(await r.json());
-        else loadData(sampleData);
-    } catch (e) {
-        loadData(sampleData);
-    }
-}
-
-tryLoadJSON();
+// INICIA O PROJETO COM OS DADOS OFF-LINE
+loadData(dadosReais);
 
 (function animate() {
     requestAnimationFrame(animate);
