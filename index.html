@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D StockFlow | Visualizador de Estoque</title>
+    
+    <!-- Bibliotecas Externas -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/examples/js/controls/OrbitControls.js"></script>
+    
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <aside>
+            <h1>3D StockFlow</h1>
+            <p class="subtitle">Gestão visual de ocupação, estoque e endereçamento.</p>
+
+            <section class="card">
+                <h2>Indicadores em tempo real</h2>
+                <div class="metrics">
+                    <div class="metric"><b id="occupation">--</b><span>Ocupação</span></div>
+                    <div class="metric"><b id="occupied">--</b><span>Posições ocupadas</span></div>
+                    <div class="metric"><b id="free">--</b><span>Posições livres</span></div>
+                    <div class="metric"><b id="units">--</b><span>Unidades estocadas</span></div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Filtros de análise</h2>
+                <label for="status">Status da posição</label>
+                <select id="status">
+                    <option value="all">Todas</option>
+                    <option value="occupied">Somente ocupadas</option>
+                    <option value="free">Somente livres</option>
+                </select>
+                
+                <label for="turnover">Curva de giro</label>
+                <select id="turnover">
+                    <option value="all">Todos os giros</option>
+                    <option value="A">Curva A — alto giro</option>
+                    <option value="B">Curva B — médio giro</option>
+                    <option value="C">Curva C — baixo giro</option>
+                </select>
+                
+                <label for="product">Produto</label>
+                <select id="product">
+                    <option value="all">Todos os produtos</option>
+                </select>
+                
+                <div class="row">
+                    <label for="level" style="margin:10px 0 5px">Nível máximo visível</label>
+                    <span id="levelLabel" style="font-size:12px;color:#92a5ba">4</span>
+                </div>
+                <input id="level" type="range" min="1" max="4" value="4" />
+            </section>
+
+            <section class="card">
+                <h2>Controles</h2>
+                <div class="btns">
+                    <button class="primary" id="reset">Vista geral</button>
+                    <button id="toggleLabels">Mostrar rótulos</button>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Legenda</h2>
+                <div class="legend">
+                    <div><i class="dot" style="background:#28c98b"></i>Curva A</div>
+                    <div><i class="dot" style="background:#3aa6ff"></i>Curva B</div>
+                    <div><i class="dot" style="background:#a777ff"></i>Curva C</div>
+                    <div><i class="dot" style="background:#5b6877"></i>Livre</div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Oportunidade operacional</h2>
+                <div id="insights"></div>
+            </section>
+        </aside>
+        
+        <main id="viewport">
+            <div id="topbar">
+                <span class="tag" id="warehouseName">Armazém</span>
+                <span class="tag">Clique em uma posição para detalhar</span>
+            </div>
+            <canvas id="canvas"></canvas>
+            <div id="tooltip"></div>
+            <div class="hint">Arraste para rotacionar • Scroll para zoom • Botão direito para deslocar</div>
+        </main>
+    </div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

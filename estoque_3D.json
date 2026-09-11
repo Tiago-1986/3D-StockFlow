@@ -1,0 +1,4010 @@
+{
+  "nome_armazem": "Armazem ZUPLOG - Demo",
+  "dimensoes": {
+    "corredores": 5,
+    "posicoes_por_corredor": 20,
+    "niveis": 4
+  },
+  "posicoes": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 429,
+      "data_entrada": "2026-08-14",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 396,
+      "data_entrada": "2026-07-15",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 66,
+      "data_entrada": "2026-08-30",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 358,
+      "data_entrada": "2026-08-30",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 264,
+      "data_entrada": "2026-08-17",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 438,
+      "data_entrada": "2026-07-11",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 192,
+      "data_entrada": "2026-08-22",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 244,
+      "data_entrada": "2026-08-25",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 423,
+      "data_entrada": "2026-08-02",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 90,
+      "data_entrada": "2026-07-27",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 345,
+      "data_entrada": "2026-08-19",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 445,
+      "data_entrada": "2026-08-13",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 375,
+      "data_entrada": "2026-07-09",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 157,
+      "data_entrada": "2026-07-20",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 361,
+      "data_entrada": "2026-07-22",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 133,
+      "data_entrada": "2026-08-02",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 162,
+      "data_entrada": "2026-07-19",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 462,
+      "data_entrada": "2026-08-11",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 340,
+      "data_entrada": "2026-07-06",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 252,
+      "data_entrada": "2026-07-06",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 121,
+      "data_entrada": "2026-08-16",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 432,
+      "data_entrada": "2026-07-25",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 120,
+      "data_entrada": "2026-07-30",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 490,
+      "data_entrada": "2026-08-24",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 355,
+      "data_entrada": "2026-08-27",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 320,
+      "data_entrada": "2026-08-15",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 399,
+      "data_entrada": "2026-07-06",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 272,
+      "data_entrada": "2026-08-21",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 306,
+      "data_entrada": "2026-07-14",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 495,
+      "data_entrada": "2026-07-22",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 128,
+      "data_entrada": "2026-08-08",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 50,
+      "data_entrada": "2026-07-24",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 235,
+      "data_entrada": "2026-07-06",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 499,
+      "data_entrada": "2026-07-26",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 467,
+      "data_entrada": "2026-08-27",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 331,
+      "data_entrada": "2026-08-21",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 266,
+      "data_entrada": "2026-08-18",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 254,
+      "data_entrada": "2026-07-20",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 281,
+      "data_entrada": "2026-08-24",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 60,
+      "data_entrada": "2026-07-25",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 53,
+      "data_entrada": "2026-08-27",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 84,
+      "data_entrada": "2026-07-05",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 192,
+      "data_entrada": "2026-07-20",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 420,
+      "data_entrada": "2026-07-03",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 451,
+      "data_entrada": "2026-08-01",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 387,
+      "data_entrada": "2026-08-04",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 492,
+      "data_entrada": "2026-07-16",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 81,
+      "data_entrada": "2026-08-06",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 177,
+      "data_entrada": "2026-08-19",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 266,
+      "data_entrada": "2026-08-20",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 276,
+      "data_entrada": "2026-07-11",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 478,
+      "data_entrada": "2026-08-31",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 296,
+      "data_entrada": "2026-08-18",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 249,
+      "data_entrada": "2026-08-15",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 388,
+      "data_entrada": "2026-07-17",
+      "giro": "B"
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 161,
+      "data_entrada": "2026-08-28",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 0,
+      "y": 19,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 79,
+      "data_entrada": "2026-08-28",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 19,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 130,
+      "data_entrada": "2026-08-28",
+      "giro": "C"
+    },
+    {
+      "x": 0,
+      "y": 19,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 85,
+      "data_entrada": "2026-07-24",
+      "giro": "A"
+    },
+    {
+      "x": 0,
+      "y": 19,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 256,
+      "data_entrada": "2026-08-24",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 70,
+      "data_entrada": "2026-07-23",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 339,
+      "data_entrada": "2026-07-29",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 172,
+      "data_entrada": "2026-08-15",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 284,
+      "data_entrada": "2026-08-11",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 338,
+      "data_entrada": "2026-08-25",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 185,
+      "data_entrada": "2026-08-23",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 274,
+      "data_entrada": "2026-07-09",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 54,
+      "data_entrada": "2026-07-20",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 499,
+      "data_entrada": "2026-08-23",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 430,
+      "data_entrada": "2026-07-27",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 157,
+      "data_entrada": "2026-07-17",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 308,
+      "data_entrada": "2026-07-31",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 474,
+      "data_entrada": "2026-08-14",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 376,
+      "data_entrada": "2026-08-15",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 337,
+      "data_entrada": "2026-08-31",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 329,
+      "data_entrada": "2026-08-29",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 270,
+      "data_entrada": "2026-08-23",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 233,
+      "data_entrada": "2026-08-18",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 231,
+      "data_entrada": "2026-07-13",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 433,
+      "data_entrada": "2026-08-22",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 450,
+      "data_entrada": "2026-07-03",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 245,
+      "data_entrada": "2026-07-07",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 229,
+      "data_entrada": "2026-08-12",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 254,
+      "data_entrada": "2026-08-10",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 254,
+      "data_entrada": "2026-07-19",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 109,
+      "data_entrada": "2026-07-06",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 69,
+      "data_entrada": "2026-08-25",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 273,
+      "data_entrada": "2026-07-24",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 147,
+      "data_entrada": "2026-08-15",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 401,
+      "data_entrada": "2026-07-16",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 85,
+      "data_entrada": "2026-07-20",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 418,
+      "data_entrada": "2026-07-05",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 217,
+      "data_entrada": "2026-08-06",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 148,
+      "data_entrada": "2026-08-05",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 365,
+      "data_entrada": "2026-07-26",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 205,
+      "data_entrada": "2026-08-13",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 360,
+      "data_entrada": "2026-07-21",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 395,
+      "data_entrada": "2026-08-18",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 387,
+      "data_entrada": "2026-08-26",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 221,
+      "data_entrada": "2026-08-26",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 462,
+      "data_entrada": "2026-08-19",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 293,
+      "data_entrada": "2026-07-23",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 149,
+      "data_entrada": "2026-07-17",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 16,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 174,
+      "data_entrada": "2026-08-22",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 16,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 448,
+      "data_entrada": "2026-08-04",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 16,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 287,
+      "data_entrada": "2026-08-28",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 16,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 283,
+      "data_entrada": "2026-08-23",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 354,
+      "data_entrada": "2026-08-11",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 268,
+      "data_entrada": "2026-07-09",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 430,
+      "data_entrada": "2026-07-07",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 480,
+      "data_entrada": "2026-07-22",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 190,
+      "data_entrada": "2026-08-03",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 213,
+      "data_entrada": "2026-07-05",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 168,
+      "data_entrada": "2026-08-07",
+      "giro": "C"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 82,
+      "data_entrada": "2026-08-05",
+      "giro": "B"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 262,
+      "data_entrada": "2026-08-28",
+      "giro": "A"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 406,
+      "data_entrada": "2026-08-30",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 230,
+      "data_entrada": "2026-08-12",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 459,
+      "data_entrada": "2026-07-24",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 273,
+      "data_entrada": "2026-07-31",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 420,
+      "data_entrada": "2026-08-21",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 353,
+      "data_entrada": "2026-07-26",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 119,
+      "data_entrada": "2026-07-07",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 244,
+      "data_entrada": "2026-08-11",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 439,
+      "data_entrada": "2026-07-06",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 179,
+      "data_entrada": "2026-07-09",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 76,
+      "data_entrada": "2026-08-09",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 436,
+      "data_entrada": "2026-08-30",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 368,
+      "data_entrada": "2026-08-22",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 338,
+      "data_entrada": "2026-08-18",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 135,
+      "data_entrada": "2026-07-24",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 105,
+      "data_entrada": "2026-07-25",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 253,
+      "data_entrada": "2026-07-17",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 102,
+      "data_entrada": "2026-07-18",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 457,
+      "data_entrada": "2026-07-26",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 388,
+      "data_entrada": "2026-08-08",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 56,
+      "data_entrada": "2026-07-08",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 375,
+      "data_entrada": "2026-07-05",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 383,
+      "data_entrada": "2026-08-14",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 288,
+      "data_entrada": "2026-08-04",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 486,
+      "data_entrada": "2026-08-16",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 174,
+      "data_entrada": "2026-07-14",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 222,
+      "data_entrada": "2026-08-30",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 231,
+      "data_entrada": "2026-07-11",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 409,
+      "data_entrada": "2026-07-06",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 147,
+      "data_entrada": "2026-08-26",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 403,
+      "data_entrada": "2026-08-01",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 97,
+      "data_entrada": "2026-08-13",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 206,
+      "data_entrada": "2026-07-20",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 321,
+      "data_entrada": "2026-08-09",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 409,
+      "data_entrada": "2026-08-02",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 111,
+      "data_entrada": "2026-07-16",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 440,
+      "data_entrada": "2026-07-18",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 191,
+      "data_entrada": "2026-07-16",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 101,
+      "data_entrada": "2026-07-09",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 141,
+      "data_entrada": "2026-08-12",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 77,
+      "data_entrada": "2026-07-27",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 376,
+      "data_entrada": "2026-07-07",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 343,
+      "data_entrada": "2026-08-13",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 144,
+      "data_entrada": "2026-08-28",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 255,
+      "data_entrada": "2026-07-31",
+      "giro": "A"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 127,
+      "data_entrada": "2026-08-22",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 110,
+      "data_entrada": "2026-07-27",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 165,
+      "data_entrada": "2026-07-13",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 202,
+      "data_entrada": "2026-07-07",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 80,
+      "data_entrada": "2026-07-23",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 370,
+      "data_entrada": "2026-08-18",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 172,
+      "data_entrada": "2026-08-20",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 259,
+      "data_entrada": "2026-08-03",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 66,
+      "data_entrada": "2026-08-17",
+      "giro": "B"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 185,
+      "data_entrada": "2026-07-12",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 267,
+      "data_entrada": "2026-08-24",
+      "giro": "C"
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 186,
+      "data_entrada": "2026-07-10",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 455,
+      "data_entrada": "2026-08-12",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 274,
+      "data_entrada": "2026-08-24",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 189,
+      "data_entrada": "2026-07-30",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 356,
+      "data_entrada": "2026-08-29",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 96,
+      "data_entrada": "2026-08-17",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 441,
+      "data_entrada": "2026-07-19",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 290,
+      "data_entrada": "2026-07-29",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 142,
+      "data_entrada": "2026-07-25",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 96,
+      "data_entrada": "2026-08-01",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 393,
+      "data_entrada": "2026-08-25",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 197,
+      "data_entrada": "2026-07-20",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 95,
+      "data_entrada": "2026-08-11",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 492,
+      "data_entrada": "2026-07-30",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 286,
+      "data_entrada": "2026-08-05",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 368,
+      "data_entrada": "2026-07-14",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 154,
+      "data_entrada": "2026-08-14",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 274,
+      "data_entrada": "2026-07-06",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 372,
+      "data_entrada": "2026-07-24",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 332,
+      "data_entrada": "2026-08-05",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 286,
+      "data_entrada": "2026-08-24",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 310,
+      "data_entrada": "2026-07-17",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 291,
+      "data_entrada": "2026-08-16",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 147,
+      "data_entrada": "2026-07-04",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 492,
+      "data_entrada": "2026-08-27",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 186,
+      "data_entrada": "2026-07-10",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 478,
+      "data_entrada": "2026-07-25",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 278,
+      "data_entrada": "2026-07-28",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 440,
+      "data_entrada": "2026-07-28",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 495,
+      "data_entrada": "2026-08-19",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 169,
+      "data_entrada": "2026-07-08",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 411,
+      "data_entrada": "2026-07-04",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 303,
+      "data_entrada": "2026-08-29",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 219,
+      "data_entrada": "2026-07-07",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 283,
+      "data_entrada": "2026-08-31",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 88,
+      "data_entrada": "2026-08-01",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 382,
+      "data_entrada": "2026-08-26",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 370,
+      "data_entrada": "2026-07-17",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 170,
+      "data_entrada": "2026-07-22",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 439,
+      "data_entrada": "2026-07-22",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 64,
+      "data_entrada": "2026-08-29",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 270,
+      "data_entrada": "2026-08-22",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 399,
+      "data_entrada": "2026-07-12",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 362,
+      "data_entrada": "2026-07-07",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 304,
+      "data_entrada": "2026-07-04",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 376,
+      "data_entrada": "2026-08-15",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 461,
+      "data_entrada": "2026-08-02",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 87,
+      "data_entrada": "2026-08-03",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 403,
+      "data_entrada": "2026-08-15",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 486,
+      "data_entrada": "2026-08-01",
+      "giro": "A"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 233,
+      "data_entrada": "2026-07-26",
+      "giro": "B"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 190,
+      "data_entrada": "2026-08-31",
+      "giro": "C"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 162,
+      "data_entrada": "2026-07-22",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 371,
+      "data_entrada": "2026-08-25",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 453,
+      "data_entrada": "2026-08-03",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 96,
+      "data_entrada": "2026-07-04",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 139,
+      "data_entrada": "2026-08-19",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 189,
+      "data_entrada": "2026-07-09",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 462,
+      "data_entrada": "2026-08-13",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 122,
+      "data_entrada": "2026-07-14",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 57,
+      "data_entrada": "2026-08-15",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 394,
+      "data_entrada": "2026-07-15",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 471,
+      "data_entrada": "2026-07-22",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 291,
+      "data_entrada": "2026-08-30",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 163,
+      "data_entrada": "2026-07-21",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 408,
+      "data_entrada": "2026-08-12",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 73,
+      "data_entrada": "2026-08-29",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 325,
+      "data_entrada": "2026-08-23",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 264,
+      "data_entrada": "2026-07-25",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 365,
+      "data_entrada": "2026-08-05",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 161,
+      "data_entrada": "2026-08-03",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 328,
+      "data_entrada": "2026-07-05",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 191,
+      "data_entrada": "2026-08-19",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 378,
+      "data_entrada": "2026-07-22",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 174,
+      "data_entrada": "2026-08-23",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 156,
+      "data_entrada": "2026-07-25",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 453,
+      "data_entrada": "2026-07-05",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 116,
+      "data_entrada": "2026-07-28",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 117,
+      "data_entrada": "2026-08-31",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "z": 3,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 58,
+      "data_entrada": "2026-08-20",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 319,
+      "data_entrada": "2026-08-24",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 448,
+      "data_entrada": "2026-08-08",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 307,
+      "data_entrada": "2026-08-17",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 204,
+      "data_entrada": "2026-08-02",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 483,
+      "data_entrada": "2026-08-06",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-D",
+      "quantidade": 414,
+      "data_entrada": "2026-07-04",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 214,
+      "data_entrada": "2026-07-24",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 369,
+      "data_entrada": "2026-07-22",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 245,
+      "data_entrada": "2026-07-24",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 359,
+      "data_entrada": "2026-08-04",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 419,
+      "data_entrada": "2026-07-07",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": 2,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 261,
+      "data_entrada": "2026-08-10",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 210,
+      "data_entrada": "2026-08-04",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 128,
+      "data_entrada": "2026-07-19",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 97,
+      "data_entrada": "2026-08-04",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 334,
+      "data_entrada": "2026-08-28",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 260,
+      "data_entrada": "2026-08-09",
+      "giro": "C"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-A",
+      "quantidade": 197,
+      "data_entrada": "2026-07-24",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "z": 0,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 309,
+      "data_entrada": "2026-08-18",
+      "giro": "A"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "z": 1,
+      "ocupado": true,
+      "produto": "PROD-B",
+      "quantidade": 483,
+      "data_entrada": "2026-08-25",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-C",
+      "quantidade": 343,
+      "data_entrada": "2026-08-17",
+      "giro": "B"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "z": 0,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "z": 1,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "z": 2,
+      "ocupado": false,
+      "produto": null,
+      "quantidade": 0,
+      "data_entrada": null,
+      "giro": null
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "z": 3,
+      "ocupado": true,
+      "produto": "PROD-E",
+      "quantidade": 63,
+      "data_entrada": "2026-07-24",
+      "giro": "C"
+    }
+  ]
+}
